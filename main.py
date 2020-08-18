@@ -70,7 +70,8 @@ def updateSongs():
 	songs = []
 	for file in listdir(getcwd()+"/"+"songs"):
 		#Add all the songs in "songs" directory
-		songs.append(file)
+		if (".mp3" in file):
+			songs.append(file)
 
 	songList = Listbox(root, highlightthickness=0, bg=darkBlue, fg="white") #List of Songs Widget
 	for file in songs:
