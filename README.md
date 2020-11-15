@@ -1,6 +1,4 @@
 # dehdul-player
-MP3 Player made by a Highschool student :)
-
 dehdul Player is a MP3 player which made with Python.
 List of things you can do:
  1) Play song
