@@ -80,7 +80,7 @@ def updateSongs():
 
 #Root Settings
 root = Tk()
-root.title("dehdul Player")
+root.title("tkinter MP3 Player")
 root.resizable(False,False)
 root.configure(bg=darkBlue)
 
